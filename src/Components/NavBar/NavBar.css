@@ -1,0 +1,24 @@
+.Navbar-container {
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+}
+.logo {
+  margin-right: auto;
+}
+
+.Navbar-wrapper {
+  display: flex;
+}
+
+.Navbar-list {
+  padding: 0 1.5rem;
+  font-size: 1.2rem;
+  color: black;
+}
+.Navbar-list a {
+  font-weight: 700;
+}
+.mobilePage {
+  display: none;
+}

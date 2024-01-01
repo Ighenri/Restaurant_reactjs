@@ -1,0 +1,26 @@
+.home-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-bgimage {
+  position: absolute;
+  top: -6rem;
+  right: -6rem;
+  z-index: -1;
+}
+
+.home-text {
+  font-size: 4rem;
+}
+.home-para {
+  font-size: 1.2rem;
+}
+.arrow-wrapper {
+  position: "relative" !important;
+}
+.arrow {
+  position: absolute;
+  top: 0;
+}
