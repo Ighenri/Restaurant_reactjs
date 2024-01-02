@@ -1,0 +1,48 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+}
+.BGimage-wrapper {
+  position: absolute;
+  left: -6rem;
+  z-index: -2;
+  max-width: 15rem;
+}
+.image-wrapper {
+  margin-right: 2rem;
+  width: 50%;
+}
+.image-wrapper img {
+  width: fit-content;
+}
+.about-writeup {
+  width: 50%;
+}
+.about-title {
+  font-size: 1rem;
+  color: orange;
+}
+.about-text {
+  font-size: 3.3rem;
+  margin-bottom: 2rem;
+}
+.about-primary-text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.about-button-wrapper {
+  display: flex;
+  align-items: center;
+}
+.about-media {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  font-size: 1rem;
+}
+
+.video-icon {
+  width: 1rem;
+}
