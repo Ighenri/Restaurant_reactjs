@@ -29,10 +29,10 @@ export default function About() {
         </p>
         <div className="about-button-wrapper">
           <button className="customBtn">Learn More</button>
-          <div className="about-media">
+          <button className="about-media">
             <PlayCircleIcon className="video-icon" />
-            <p> Watch Video</p>
-          </div>
+            Watch Video
+          </button>
         </div>
       </div>
     </div>
